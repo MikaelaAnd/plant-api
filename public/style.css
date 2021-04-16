@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: rgba(39, 63, 53, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Qwigley', cursive;
+    color: white;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+.show-data-button {
+    background-color: rgb(78, 112, 98);
+    width: 91px;
+    height: 25px;
+    border-radius: 30rem;
+    border: none;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+main {
+    margin: 1rem 1rem;
+}
+
+.root-button {
+    background-color: rgba(39, 63, 53, 1);
+    width: 91px;
+    height: 25px;
+    border-radius: 30rem;
+    border: none;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    outline: none;
+    cursor: pointer;
+}
+
+.button-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0.2rem;
+}
+
+.update-plant-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-plant-wrapper > input {
+    margin: .2rem;
+}
+
+.plant-card {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-image: url('./leaf.png');
+    color:rgba(39, 63, 53, 1);
+    display: flex;
+    width: 5rem;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+    margin: 0 .2rem;
+    cursor: pointer;
+}
+
+.plant-data {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    background-color:rgb(78, 112, 98);
+    border-radius: 30rem;
+    padding: 2rem;
+    font-size: large;
+    margin: .2rem;
+}
+h4, h5 {
+    margin: 0;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30rem;
+    width: 10rem;
+    height: 1.3rem;
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .plant-card {
+        margin: .2rem;
+    }
+
+    input {
+        margin: .2rem;
+    }
+}
