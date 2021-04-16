@@ -5,10 +5,10 @@ const port = 3000;
 const data = fs.readFileSync('plants.json');
 let plants = JSON.parse(data);
 
-
 app.use(express.json());
 app.use(express.static('./public'));
 
+// All my endpoints 
 app.get('/api', (req, res) => {
     res.status(200).json(plants)
 });
@@ -22,7 +22,7 @@ app.get('/api/:id', (req, res) => {
         res.status(404).json(`Plant with id:${id} does not exist`);
     }
     res.status(200).json(foundPlant);
-})
+});
 
 app.post('/api', (req,res) => {
     const newPlant = req.body;
