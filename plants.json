@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Ginko",
+    "color": "darkgreen",
+    "status": "indoor",
+    "id": 6
+  },
+  {
+    "name": "Monstera variegata",
+    "color": "Green/white",
+    "status": "Indoor",
+    "id": 8
+  },
+  {
+    "name": "Oxalis",
+    "color": "violet",
+    "status": "indoor",
+    "id": 10
+  },
+  {
+    "name": "Philodrendon",
+    "color": "green/white",
+    "status": "indoor",
+    "id": 11
+  },
+  {
+    "name": "Calathea",
+    "color": "purple",
+    "status": "indoor",
+    "id": 12
+  },
+  {
+    "name": "Ficus",
+    "color": "green/yellow",
+    "status": "indoor",
+    "id": 13
+  },
+  {
+    "name": "Coconut tree",
+    "color": "green",
+    "status": "outdoor",
+    "id": 14
+  }
+]
