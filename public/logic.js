@@ -1,6 +1,6 @@
-window.addEventListener('load', initSite);
+window.addEventListener('load', addEventListeners);
 
-async function initSite() {
+function addEventListeners() {
     const btnAddNewPlant = document.getElementById('addNewPlant');
     btnAddNewPlant.addEventListener('click', addNewPlant);
     const btnShowAllPlants = document.getElementById('showPlants');
@@ -28,10 +28,9 @@ function displayPlant(plant, fillData) {
 
     fillData.append(plantCard);
     plantCard.append(title);
-
 }
 
-async function addNewPlant() {
+function addNewPlant() {
     const fillData = document.getElementById('printDataHere');
     fillData.innerHTML = '';
     const addNewTitle = document.createElement('input');
@@ -88,7 +87,7 @@ function displaySpecificPlant(plant, fillData) {
     plantData.append(title, color, status, btnUpdatePlant, btnDeletePlant);
 }
 
-async function updatePlant(plant, fillData, plantData) {
+function updatePlant(plant, fillData, plantData) {
     const plantDataDiv = document.createElement('div');
     plantDataDiv.classList.add('update-plant-wrapper')
     const updateName = document.createElement('input');
