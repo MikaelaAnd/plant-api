@@ -72,7 +72,7 @@ main {
 
 .plant-card {
     font-family: 'Open Sans Condensed', sans-serif;
-    background-image: url('./leaf.png');
+    background-image: url('./assets/leaf.png');
     color:rgba(39, 63, 53, 1);
     display: flex;
     width: 5rem;
