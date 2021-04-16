@@ -1,0 +1,33 @@
+GET http://localhost:3000/api
+
+###
+
+GET http://localhost:3000/api/7
+
+###
+
+POST http://localhost:3000/api
+Content-Type: application/json
+
+{
+    "name": "Elefantöra",
+    "color": "green",
+    "status": "indoor"
+}
+
+###
+
+PUT http://localhost:3000/api/13
+Content-Type: application/json
+
+{
+    "name": "Ficus",
+    "color": "green/yellow",
+    "status": "indoor"
+}
+
+###
+
+DELETE http://localhost:3000/api/7
+
+###
